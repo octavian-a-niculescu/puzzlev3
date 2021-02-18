@@ -17,8 +17,6 @@ namespace puzzle
         public Node(int[,] elemente, Node nodAnterior, Actiuni actiune) : base(elemente, actiune)
         {
             _nodAnterior = nodAnterior;
-            _actiune = actiune;
-            _elementZero = (int[])GetElementZero();
         }
         private Node GetNodNou(int offsetRand, int offsetColoana, Actiuni actiune)
         {
